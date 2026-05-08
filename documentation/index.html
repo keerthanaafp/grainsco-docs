@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GRAINSCO — Documentation</title>
-  <link rel="stylesheet" href="assets/style.css?v=2026-05-08b">
+  <link rel="stylesheet" href="assets/style.css?v=2026-05-08c">
 </head>
 <body>
   <div class="layout">
@@ -23,22 +23,30 @@
           <svg class="icon icon-sm" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
           Driver Module
         </p>
-
         <a class="nav-link" href="#driver-overview">
           <svg class="icon" viewBox="0 0 24 24"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
           Overview
         </a>
+        <a class="nav-link" href="#login-screen">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          Login Screen
+        </a>
+
+        <p class="nav-group-label">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Dispatcher Side
+        </p>
         <a class="nav-link" href="#all-deliveries">
           <svg class="icon" viewBox="0 0 24 24"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/></svg>
           All Deliveries
         </a>
-        <a class="nav-link" href="#delivery-detail">
-          <svg class="icon" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-          Delivery Detail
-        </a>
         <a class="nav-link" href="#create-order">
           <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
           Create Order
+        </a>
+        <a class="nav-link" href="#delivery-detail">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          Delivery Detail
         </a>
         <a class="nav-link" href="#drivers">
           <svg class="icon" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
@@ -47,6 +55,60 @@
         <a class="nav-link" href="#vehicles">
           <svg class="icon" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
           Vehicles
+        </a>
+
+        <p class="nav-group-label">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/></svg>
+          Driver Side
+        </p>
+        <a class="nav-link" href="#driver-notification">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+          Receive Notification
+        </a>
+        <a class="nav-link" href="#pre-trip-inspection">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+          Pre-Trip Inspection
+        </a>
+        <a class="nav-link" href="#verify-cargo">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+          Verify Cargo & Issue Ticket
+        </a>
+        <a class="nav-link" href="#depart">
+          <svg class="icon" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          Depart to Destination
+        </a>
+        <a class="nav-link" href="#photos-expenses">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+          Photos & Expenses
+        </a>
+        <a class="nav-link" href="#arrive-sign">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 7-8 13-8 13s-8-6-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Arrive & Sign
+        </a>
+        <a class="nav-link" href="#return-warehouse">
+          <svg class="icon" viewBox="0 0 24 24"><polyline points="9 14 4 9 9 4"/><path d="M20 20v-7a4 4 0 0 0-4-4H4"/></svg>
+          Return to Warehouse
+        </a>
+        <a class="nav-link" href="#post-trip-inspection">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+          Post-Trip Inspection
+        </a>
+        <a class="nav-link" href="#return-keys-complete">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></svg>
+          Return Keys & Complete
+        </a>
+        <a class="nav-link" href="#generate-pdf">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          Generate PDF & Sign Off
+        </a>
+
+        <p class="nav-group-label">
+          <svg class="icon icon-sm" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          Workflow Summary
+        </p>
+        <a class="nav-link" href="#workflow-summary">
+          <svg class="icon" viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          Complete Workflow
         </a>
 
         <p class="nav-group-label">
@@ -74,12 +136,12 @@
         </span>
         <div>
           <h1>Driver Module</h1>
-          <p>GRAINSCO Fieldproxy delivery management application — manage delivery orders, drivers, and vehicles from one dashboard.</p>
+          <p>GRAINSCO Delivery Management Web Portal — used by both Dispatchers and Drivers in the same web app.</p>
         </div>
       </div>
 
       <!-- ============================================================ -->
-      <!-- DRIVER OVERVIEW                                              -->
+      <!-- OVERVIEW                                                     -->
       <!-- ============================================================ -->
       <section id="driver-overview" class="view-section">
         <div class="section-header">
@@ -88,24 +150,15 @@
           </div>
           <div class="section-header-text">
             <h2>Overview</h2>
-            <p class="section-meta">GRAINSCO Fieldproxy delivery management application</p>
+            <p class="section-meta">Delivery Management Web Portal built on Fieldproxy</p>
           </div>
         </div>
 
         <p>
-          The Driver Module is a delivery management system built on the Fieldproxy platform,
-          branded for GRAINSCO. The app is designed to manage delivery orders, drivers, and
-          vehicles from a central dashboard.
+          This is a <strong>Delivery Management Web Portal</strong> built on Fieldproxy for GRAINSCO.
+          It serves <strong>two types of users</strong> — the <strong>Dispatcher</strong> (manager side)
+          and the <strong>Driver</strong> — both using the same web application.
         </p>
-
-        <h3>Sidebar navigation</h3>
-        <p>The left-side navigation has 4 items (collapsible):</p>
-        <ul class="feature-list">
-          <li><strong>All Deliveries</strong> — delivery box icon</li>
-          <li><strong>Create Order</strong> — plus icon</li>
-          <li><strong>Drivers</strong> — person icon</li>
-          <li><strong>Vehicles</strong> — truck icon</li>
-        </ul>
 
         <a href="../walkthrough_videos/videos.html#driver-module" class="video-callout">
           <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor" stroke="none"/></svg>
@@ -114,8 +167,31 @@
       </section>
 
       <!-- ============================================================ -->
-      <!-- 1. ALL DELIVERIES                                            -->
+      <!-- LOGIN SCREEN                                                 -->
       <!-- ============================================================ -->
+      <section id="login-screen" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#ede9fe; --icon-color:#7c3aed;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Login Screen</h2>
+            <p class="section-meta">Both dispatcher and driver log in through the same web application</p>
+          </div>
+        </div>
+
+        <ul>
+          <li>URL: <code>grains.co</code> (or the staging link)</li>
+          <li>Enter your <strong>User ID</strong> (e.g. <code>test1</code>) and <strong>Password</strong> (e.g. <code>12345678</code>)</li>
+          <li>The role (dispatcher vs. driver) determines what you see after login</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- DISPATCHER SIDE                                              -->
+      <!-- ============================================================ -->
+
+      <!-- 1. ALL DELIVERIES -->
       <section id="all-deliveries" class="view-section">
         <div class="section-header">
           <div class="section-icon" style="--icon-bg:#dbeafe; --icon-color:#2563eb;">
@@ -123,215 +199,75 @@
           </div>
           <div class="section-header-text">
             <h2>All Deliveries</h2>
-            <p class="section-meta">Driver Module / <code>/all_deliveries_view</code></p>
+            <p class="section-meta">Dispatcher Side — Dashboard / Home View</p>
           </div>
         </div>
 
         <p>
-          The main dashboard where you can monitor and manage every delivery order in the system.
+          This is the <strong>first screen the dispatcher sees after logging in</strong>.
+          It is the main delivery board.
         </p>
 
-        <h3>Top section — Summary cards (5 KPI tiles)</h3>
+        <h3>What you see</h3>
         <ul>
-          <li><strong>All Orders</strong> — total count (currently 27)</li>
-          <li><strong>Pending</strong> — orders awaiting assignment/dispatch (currently 8)</li>
-          <li><strong>In Transit</strong> — orders actively being delivered (currently 0)</li>
-          <li><strong>Completed</strong> — successfully delivered orders (currently 16)</li>
-          <li><strong>Failed</strong> — failed delivery attempts (currently 0)</li>
+          <li>Page title: <strong>"All Deliveries"</strong> — <em>Manage and track all delivery orders</em></li>
+          <li>A <strong>date range filter</strong> at the top to filter orders by date</li>
         </ul>
 
-        <h3>Date filter</h3>
-        <p>
-          A date range picker (<code>dd MM yyyy – dd MM yyyy</code>) with an
-          <strong>Apply</strong> button to filter the delivery list by date range.
-        </p>
-
-        <h3>Delivery orders table</h3>
-        <p>Shows all orders with these columns:</p>
+        <h3>5 KPI summary cards</h3>
         <ul>
-          <li><strong>Order #</strong> — unique ID (format: <code>DLV-YYYY-XXXX</code>, e.g. <code>DLV-2026-0027</code>)</li>
-          <li><strong>Customer</strong> — the recipient/customer name</li>
-          <li><strong>Address</strong> — delivery destination</li>
-          <li><strong>Driver</strong> — assigned driver (with a dropdown to change)</li>
+          <li><strong>All Orders</strong> — total number of delivery orders (e.g. 27)</li>
+          <li><strong>Pending</strong> — orders created but not yet dispatched (e.g. 8)</li>
+          <li><strong>In Transit</strong> — orders currently being delivered (e.g. 0)</li>
+          <li><strong>Completed</strong> — successfully finished deliveries (e.g. 16)</li>
+          <li><strong>Failed</strong> — failed delivery attempts (e.g. 0)</li>
+        </ul>
+
+        <h3>Delivery Orders table</h3>
+        <ul>
+          <li>Order # (e.g. <code>DLV-2026-0027</code>)</li>
+          <li>Customer name</li>
+          <li>Delivery Address</li>
+          <li>Assigned Driver (with dropdown to change)</li>
           <li>
-            <strong>Status</strong> — color-coded badge:
+            Status (color-coded:
             <span class="badge green">Completed</span>
             <span class="badge yellow">Pending</span>
             <span class="badge blue">In Transit</span>
-            <span class="badge grey">Arrived</span>
-            <span class="badge red">Failed</span>
+            <span class="badge grey">Arrived</span>)
           </li>
           <li>
-            <strong>Priority</strong> — color-coded:
-            <span class="badge red">Urgent</span>
+            Priority
+            (<span class="badge red">Urgent</span>
             <span class="badge yellow">High</span>
-            <span class="badge grey">Normal</span>
+            <span class="badge grey">Normal</span>)
           </li>
-          <li><strong>Created</strong> — date the order was created</li>
+          <li>Created date</li>
           <li>
-            <strong>Actions</strong> —
+            Actions —
             <svg class="icon icon-sm icon-inline" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-            eye icon to open the detail view of each order
+            eye icon to view the full order detail
           </li>
         </ul>
 
         <h3>Additional features</h3>
         <ul>
-          <li>Each column has a <strong>"Contains" filter</strong> row for searching/filtering within the column</li>
-          <li>
-            <strong>Export button</strong>
-            (<svg class="icon icon-sm icon-inline" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            download icon) — allows exporting the table data
-          </li>
-          <li><strong>Pagination</strong> at the bottom (27 orders spread over 2 pages, with rows-per-page selector)</li>
-          <li><strong>"+ New Delivery Order"</strong> button in the top right (takes you to the Create Order view)</li>
+          <li>Each column has a <strong>"Contains" search/filter</strong> row</li>
+          <li><strong>Export/download button</strong> to export the list</li>
+          <li><strong>Pagination</strong> at the bottom (rows per page selector + page navigation)</li>
+          <li><strong>"+ New Delivery Order"</strong> button at the top right</li>
+        </ul>
+
+        <h3>Sidebar navigation visible from this view</h3>
+        <ul>
+          <li>All Deliveries</li>
+          <li>Create Order</li>
+          <li>Drivers</li>
+          <li>Vehicles</li>
         </ul>
       </section>
 
-      <!-- ============================================================ -->
-      <!-- 2. DELIVERY DETAIL                                           -->
-      <!-- ============================================================ -->
-      <section id="delivery-detail" class="view-section">
-        <div class="section-header">
-          <div class="section-icon" style="--icon-bg:#cffafe; --icon-color:#0891b2;">
-            <svg class="icon" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-          </div>
-          <div class="section-header-text">
-            <h2>Delivery Detail</h2>
-            <p class="section-meta">Driver Module / <code>/delivery_detail_view</code> — sub-view opened from All Deliveries</p>
-          </div>
-        </div>
-
-        <p>Shows the complete information for a single delivery order.</p>
-
-        <h3>How to access</h3>
-        <p>
-          Click the
-          <svg class="icon icon-sm icon-inline" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-          eye icon on any row in the All Deliveries table.
-        </p>
-
-        <h3>Top header</h3>
-        <ul>
-          <li>Breadcrumb navigation: <code>← Back to Deliveries / DLV-2026-XXXX</code></li>
-          <li>Order number as title (e.g., <code>DLV-2026-0027</code>)</li>
-          <li>Customer name and company subtitle</li>
-          <li><strong>Status badge</strong> (e.g., <span class="badge green">Completed</span>)</li>
-          <li><strong>"Generate PDF"</strong> button (purple) — generates a PDF report for the order</li>
-        </ul>
-
-        <h3>Information panels (3 columns)</h3>
-
-        <h4>Panel 1 — Customer &amp; Contact</h4>
-        <ul>
-          <li>Customer name</li>
-          <li>Company</li>
-          <li>Contact Person</li>
-          <li>Primary Mobile</li>
-          <li>Secondary Mobile</li>
-          <li>Email</li>
-        </ul>
-
-        <h4>Panel 2 — Delivery Address</h4>
-        <ul>
-          <li>Address</li>
-          <li>Nearest Landmark</li>
-          <li>City</li>
-          <li>Region</li>
-        </ul>
-
-        <h4>Panel 3 — Delivery Details</h4>
-        <ul>
-          <li>Time Window</li>
-          <li>Priority (Urgent / High / Normal)</li>
-          <li>Special Instructions</li>
-        </ul>
-
-        <h3>Second row of panels</h3>
-
-        <h4>Assignment Panel</h4>
-        <ul>
-          <li>Assigned Driver</li>
-          <li>Assigned Vehicle</li>
-        </ul>
-
-        <h4>Status Panel</h4>
-        <ul>
-          <li>Order Status</li>
-          <li>Cargo Verified (true / false)</li>
-        </ul>
-
-        <h4>Completion Panel</h4>
-        <ul>
-          <li>Trip Ticket Issued (true / false)</li>
-          <li>Filed Off (true / false)</li>
-        </ul>
-
-        <h3>Bottom tabs (5 tabs)</h3>
-
-        <h4>Tab 1 — Items</h4>
-        <p>Shows all the physical goods in the delivery order in a table with:</p>
-        <ul>
-          <li>Item name</li>
-          <li>Description</li>
-          <li>Quantity (QTY)</li>
-          <li>Weight</li>
-          <li>Unit (Boxes, Pcs, etc.)</li>
-          <li>Handling notes</li>
-          <li><strong>"+ Add Items"</strong> button to add new items to the order</li>
-        </ul>
-
-        <h4>Tab 2 — Timeline</h4>
-        <p>A chronological event log showing every step of the delivery lifecycle:</p>
-        <ul>
-          <li>Delivery Signed Off &amp; Closed</li>
-          <li>Keys Returned &amp; Trip Completed</li>
-          <li>Post-Trip Inspection Completed</li>
-          <li>Return to Warehouse</li>
-          <li>Arrived at Site (with timestamp)</li>
-          <li>Manual Status Update</li>
-          <li>Departed to Destination</li>
-          <li>Trip Ticket Issued</li>
-          <li>Cargo Verified &amp; Loaded</li>
-          <li>Pre-Trip Inspection Completed</li>
-        </ul>
-        <p>
-          Each event shows: event name, description, who performed it
-          (<code>By: [driver name]</code>), and timestamp.
-        </p>
-
-        <h4>Tab 3 — Expenses</h4>
-        <p>Lists all expenses associated with the delivery:</p>
-        <ul>
-          <li>Date / Timestamp</li>
-          <li>Type (e.g., "Fuel Receipt")</li>
-          <li>Amount (e.g., 45688.0)</li>
-          <li>Description (e.g., "petrol")</li>
-        </ul>
-
-        <h4>Tab 4 — All Inspections</h4>
-        <p>Shows vehicle inspection forms submitted for the delivery:</p>
-        <ul>
-          <li><strong>Pre-Trip Inspection</strong> with Driver name, Vehicle name, and Odometer reading</li>
-          <li>
-            Inspection checklist by Category (e.g., "Exterior Check"), Check Item
-            (e.g., "Vehicle body free from major dents/damages"), and Result (Yes / No)
-          </li>
-        </ul>
-
-        <h4>Tab 5 — PDF</h4>
-        <p>Renders a <strong>live PDF preview</strong> of the Delivery Report directly in the browser. The PDF includes:</p>
-        <ul>
-          <li>Company logo and branding (GRAINSCO)</li>
-          <li>Header: Order No, Date, Driver, Vehicle, Status</li>
-          <li>Section A: Customer Information</li>
-          <li>Section B: Delivery Items table</li>
-        </ul>
-      </section>
-
-      <!-- ============================================================ -->
-      <!-- 3. CREATE ORDER                                              -->
-      <!-- ============================================================ -->
+      <!-- 2. CREATE ORDER -->
       <section id="create-order" class="view-section">
         <div class="section-header">
           <div class="section-icon" style="--icon-bg:#d1fae5; --icon-color:#10b981;">
@@ -339,57 +275,190 @@
           </div>
           <div class="section-header-text">
             <h2>Create Order</h2>
-            <p class="section-meta">Driver Module / <code>/create_delivery_order</code></p>
+            <p class="section-meta">Dispatcher Side — create a brand new delivery job</p>
           </div>
         </div>
 
-        <p>A form to create a brand new delivery order from scratch.</p>
-
-        <h3>Header</h3>
         <p>
-          <strong>"Create New Delivery Order"</strong> with subtitle:
-          <em>"Step 1: Fill in customer and delivery details, then add items on the next page"</em>
+          <strong>Accessed by:</strong> Clicking "Create Order" in the sidebar
+          OR clicking "+ New Delivery Order" button.
+        </p>
+
+        <p>
+          <strong>Purpose:</strong> To create a brand new delivery job and assign it to a driver and vehicle.
+        </p>
+
+        <p>
+          The page title says: <strong>"Create New Delivery Order"</strong><br>
+          Subtitle: <em>"Step 1: Fill in customer and delivery details, then add items on the next page"</em>
         </p>
 
         <h3>Section 1 — Customer Information</h3>
         <ul>
-          <li>Customer Name<strong>*</strong> (required)</li>
+          <li>Customer Name <em>(required)</em></li>
           <li>Company Name</li>
           <li>Contact Person</li>
           <li>Email</li>
-          <li>Primary Mobile<strong>*</strong> (with country code selector, default US +1)</li>
-          <li>Secondary Mobile (with country code selector)</li>
+          <li>Primary Mobile <em>(required, with country code selector)</em></li>
+          <li>Secondary Mobile</li>
         </ul>
 
         <h3>Section 2 — Delivery Address</h3>
         <ul>
-          <li>Delivery Address<strong>*</strong> (required)</li>
-          <li>Region / Province<strong>*</strong> (dropdown)</li>
-          <li>City / Municipality<strong>*</strong> (dropdown, depends on Region)</li>
+          <li>Delivery Address <em>(required)</em></li>
+          <li>Region / Province <em>(dropdown)</em></li>
+          <li>City / Municipality <em>(dropdown, depends on Region selected)</em></li>
           <li>Zip Code</li>
           <li>Nearest Landmark</li>
         </ul>
 
         <h3>Section 3 — Delivery Details &amp; Assignment</h3>
         <ul>
-          <li>Scheduled Delivery Date (date picker)</li>
-          <li>Delivery Time Window<strong>*</strong> (required, text field)</li>
-          <li>Priority<strong>*</strong> (dropdown: Urgent / High / Normal)</li>
-          <li>Assign Driver<strong>*</strong> (dropdown list of available drivers)</li>
-          <li>Assign Vehicle<strong>*</strong> (dropdown list of available vehicles)</li>
-          <li>Special Instructions (text area)</li>
+          <li>Scheduled Delivery Date <em>(date picker)</em></li>
+          <li>Delivery Time Window <em>(e.g., 4 AM to 9 PM)</em></li>
+          <li>Priority <em>(dropdown: Urgent / High / Normal)</em></li>
+          <li>Assign Driver <em>(dropdown of available drivers, e.g. "test user")</em></li>
+          <li>Assign Vehicle <em>(dropdown of available vehicles)</em></li>
+          <li>Special Instructions <em>(free text area)</em></li>
         </ul>
 
         <h3>Footer buttons</h3>
         <ul>
-          <li><strong>Cancel</strong> — goes back to deliveries list</li>
-          <li><strong>→ Create &amp; Add Items</strong> — saves the order and proceeds to Step 2 (adding delivery items)</li>
+          <li><strong>Cancel</strong> — goes back without saving</li>
+          <li><strong>→ Create &amp; Add Items</strong> — saves the order and proceeds to Step 2</li>
+        </ul>
+
+        <h3>Step 2 — Add Items Page</h3>
+        <p>
+          After clicking "Create &amp; Add Items", you land on a page to add the physical goods:
+        </p>
+        <ul>
+          <li>Item name / size</li>
+          <li>Description</li>
+          <li>Quantity (e.g. 344)</li>
+          <li>Weight</li>
+          <li>Unit (e.g. Bags)</li>
+        </ul>
+        <p>
+          Click <strong>"Add"</strong> to add the item, then <strong>"Done"</strong> to finish — this takes you back
+          to the <strong>Delivery Detail View</strong> to review the full order.
+        </p>
+      </section>
+
+      <!-- 3. DELIVERY DETAIL -->
+      <section id="delivery-detail" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#cffafe; --icon-color:#0891b2;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Delivery Detail</h2>
+            <p class="section-meta">Dispatcher Side — full order review for a single delivery</p>
+          </div>
+        </div>
+
+        <p>
+          <strong>Accessed by:</strong> Clicking the
+          <svg class="icon icon-sm icon-inline" viewBox="0 0 24 24"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+          eye icon on any order in the All Deliveries table, or automatically after creating an order.
+        </p>
+
+        <p>
+          <strong>Purpose:</strong> Full detailed view of a single delivery order for the dispatcher to monitor, act on, and manage.
+        </p>
+
+        <h3>Top section</h3>
+        <ul>
+          <li>Breadcrumb: <em>← Back to Deliveries / DLV-2026-XXXX</em></li>
+          <li>Order number as title</li>
+          <li>Customer name and company as subtitle</li>
+          <li><strong>Status badge</strong> (e.g. <span class="badge green">Completed</span>, <span class="badge yellow">Pending</span>, <span class="badge blue">In Transit</span>)</li>
+          <li><strong>"Generate PDF"</strong> button (purple) — top right</li>
+        </ul>
+
+        <h3>Three info panels in the first row</h3>
+        <h4>Panel 1 — Customer &amp; Contact</h4>
+        <ul>
+          <li>Customer name, Company, Contact Person, Primary Mobile, Secondary Mobile, Email</li>
+        </ul>
+        <h4>Panel 2 — Delivery Address</h4>
+        <ul>
+          <li>Address, Nearest Landmark, City, Region</li>
+        </ul>
+        <h4>Panel 3 — Delivery Details</h4>
+        <ul>
+          <li>Time Window, Priority, Special Instructions</li>
+        </ul>
+
+        <h3>Three info panels in the second row</h3>
+        <h4>Assignment Panel</h4>
+        <ul><li>Assigned Driver, Assigned Vehicle</li></ul>
+        <h4>Status Panel</h4>
+        <ul><li>Order Status, Cargo Verified (true/false)</li></ul>
+        <h4>Completion Panel</h4>
+        <ul><li>Trip Ticket Issued (true/false), Filed Off (true/false)</li></ul>
+
+        <h3>Bottom section — 5 Tabs</h3>
+
+        <h4>Tab 1 — Items</h4>
+        <ul>
+          <li>Lists all cargo/goods attached to this order</li>
+          <li>Columns: Item name, Description, QTY, Weight, Unit, Handling</li>
+          <li><strong>"+ Add Items"</strong> button to add more items</li>
+        </ul>
+
+        <h4>Tab 2 — Timeline</h4>
+        <p>
+          This is the <strong>most important operational tab</strong> — it is a
+          <strong>live, automatic event log</strong> that records every action taken on this delivery
+          in chronological order. The steps recorded here are:
+        </p>
+        <ol>
+          <li>Pre-Trip Inspection Completed</li>
+          <li>Cargo Verified &amp; Loaded</li>
+          <li>Trip Ticket Issued</li>
+          <li>Departed to Destination</li>
+          <li>Manual Status Update</li>
+          <li>Arrived at Site</li>
+          <li>Return to Warehouse</li>
+          <li>Post-Trip Inspection Completed</li>
+          <li>Keys Returned &amp; Trip Completed</li>
+          <li>Delivery Signed Off &amp; Closed</li>
+        </ol>
+        <p>
+          Each entry shows: event name, description, who did it (<code>By: [driver name]</code>), and timestamp.
+          These are <strong>automatically created by the system</strong> — not manually entered.
+        </p>
+
+        <h4>Tab 3 — Expenses</h4>
+        <ul>
+          <li>Lists all expenses the driver logged during the trip</li>
+          <li>Columns: Date/Time, Type (e.g. Fuel Receipt), Amount, Description</li>
+          <li>Submitted by the driver from their side during the delivery</li>
+        </ul>
+
+        <h4>Tab 4 — All Inspections</h4>
+        <ul>
+          <li>Shows the full pre-trip and post-trip vehicle inspection reports submitted by the driver</li>
+          <li>Includes: Driver name, Vehicle name, Odometer reading</li>
+          <li>Checklist table: Category (e.g. Exterior Check), Check Item (e.g. "Vehicle body free from major dents"), Result (Yes / No)</li>
+        </ul>
+
+        <h4>Tab 5 — PDF</h4>
+        <ul>
+          <li>Renders a <strong>live PDF preview</strong> of the official Delivery Report inside the browser</li>
+          <li>The PDF is branded with GRAINSCO logo and includes:
+            <ul>
+              <li>Header: Order No, Date, Driver, Vehicle, Status</li>
+              <li>Section A: Customer Information</li>
+              <li>Section B: Delivery Items table</li>
+            </ul>
+          </li>
+          <li>Can be <strong>downloaded</strong> directly from this tab</li>
         </ul>
       </section>
 
-      <!-- ============================================================ -->
-      <!-- 4. DRIVERS                                                   -->
-      <!-- ============================================================ -->
+      <!-- 4. DRIVERS -->
       <section id="drivers" class="view-section">
         <div class="section-header">
           <div class="section-icon" style="--icon-bg:#fef3c7; --icon-color:#d97706;">
@@ -397,32 +466,34 @@
           </div>
           <div class="section-header-text">
             <h2>Drivers</h2>
-            <p class="section-meta">Driver Module / <code>/drivers_view</code></p>
+            <p class="section-meta">Dispatcher Side — manage all registered drivers</p>
           </div>
         </div>
 
-        <p>Manage all drivers registered in the system and their profiles.</p>
+        <p>
+          <strong>Accessed by:</strong> Clicking "Drivers" in the sidebar.
+        </p>
+        <p><strong>Purpose:</strong> Manage all registered drivers in the system.</p>
 
-        <h3>Top section — Summary cards (4 KPI tiles)</h3>
+        <h3>Top section — 4 KPI cards</h3>
         <ul>
-          <li><strong>Total Drivers</strong> — total registered drivers (currently 1)</li>
-          <li><strong>Active</strong> — currently active drivers (currently 1)</li>
-          <li><strong>Inactive</strong> — deactivated drivers (currently 0)</li>
-          <li><strong>Available Now</strong> — drivers available for assignment right now (currently 1)</li>
+          <li><strong>Total Drivers</strong> (e.g. 1)</li>
+          <li><strong>Active</strong> (e.g. 1)</li>
+          <li><strong>Inactive</strong> (e.g. 0)</li>
+          <li><strong>Available Now</strong> (e.g. 1)</li>
         </ul>
 
-        <h3>All drivers table</h3>
-        <p>Shows each driver with columns:</p>
+        <h3>All Drivers table — columns</h3>
         <ul>
           <li>Driver Name</li>
           <li>Phone</li>
           <li>Email</li>
-          <li>License # (license plate / number)</li>
+          <li>License #</li>
           <li>License Type</li>
           <li>Blood Group</li>
           <li>Availability (Available / Unavailable)</li>
-          <li>Status — color-coded badge (<span class="badge green">Active</span>)</li>
-          <li>Added — date added to the system</li>
+          <li>Status (<span class="badge green">Active</span>)</li>
+          <li>Added (date)</li>
           <li>
             Actions —
             <svg class="icon icon-sm icon-inline" viewBox="0 0 24 24" style="stroke:#ef4444"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-2 14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>
@@ -430,27 +501,23 @@
           </li>
         </ul>
 
-        <h3>Add Driver button (top right)</h3>
-        <p>
-          Opens a modal popup — <strong>Add New Driver</strong> — with the following fields:
-        </p>
+        <h3>"Add Driver" button</h3>
+        <p>Opens the <strong>Add New Driver modal</strong> with fields:</p>
         <ul>
           <li>Driver Name</li>
-          <li>Phone (with country code selector)</li>
+          <li>Phone (with country code)</li>
           <li>Email</li>
           <li>License Number</li>
           <li>License Type</li>
           <li>Blood Group</li>
           <li>Emergency Contact Name</li>
           <li>Emergency Contact Phone</li>
-          <li>Password (for driver's mobile app login)</li>
+          <li>Password <em>(this is the driver's login password for the app)</em></li>
           <li>Cancel / Save buttons</li>
         </ul>
       </section>
 
-      <!-- ============================================================ -->
-      <!-- 5. VEHICLES                                                  -->
-      <!-- ============================================================ -->
+      <!-- 5. VEHICLES -->
       <section id="vehicles" class="view-section">
         <div class="section-header">
           <div class="section-icon" style="--icon-bg:#ffe4e6; --icon-color:#e11d48;">
@@ -458,35 +525,37 @@
           </div>
           <div class="section-header-text">
             <h2>Vehicles</h2>
-            <p class="section-meta">Driver Module / <code>/vehicles_view</code></p>
+            <p class="section-meta">Dispatcher Side — manage the full vehicle fleet</p>
           </div>
         </div>
 
-        <p>Manage the entire vehicle fleet, including motorcycles, pickups, and trucks.</p>
+        <p>
+          <strong>Accessed by:</strong> Clicking "Vehicles" in the sidebar.
+        </p>
+        <p><strong>Purpose:</strong> Manage the full vehicle fleet used for deliveries.</p>
 
-        <h3>Top section — Summary cards (4 KPI tiles)</h3>
+        <h3>Top section — 4 KPI cards</h3>
         <ul>
-          <li><strong>Total Vehicles</strong> — total fleet count (currently 43)</li>
-          <li><strong>Active</strong> — currently active vehicles (currently 43)</li>
-          <li><strong>Inactive</strong> — decommissioned vehicles (currently 0)</li>
-          <li><strong>Available Now</strong> — vehicles ready for assignment (currently 43)</li>
+          <li><strong>Total Vehicles</strong> (e.g. 43)</li>
+          <li><strong>Active</strong> (e.g. 43)</li>
+          <li><strong>Inactive</strong> (e.g. 0)</li>
+          <li><strong>Available Now</strong> (e.g. 43)</li>
         </ul>
 
-        <h3>All vehicles table</h3>
-        <p>Shows each vehicle with columns:</p>
+        <h3>All Vehicles table — columns</h3>
         <ul>
           <li>Vehicle # (internal code, e.g. <code>CDO-011</code>, <code>MC-001</code>)</li>
-          <li>Plate No. (license plate)</li>
+          <li>Plate No.</li>
           <li>Type (Pickup, Motorcycle, etc.)</li>
-          <li>Make (Toyota, Honda, Kawasaki, Isuzu, Rusi, etc.)</li>
+          <li>Make (Toyota, Honda, Kawasaki, Isuzu, Rusi)</li>
           <li>Model (Hilux, Wave 110, D-Max, etc.)</li>
           <li>Year</li>
           <li>Capacity (kg)</li>
-          <li>Fuel (fuel type)</li>
+          <li>Fuel</li>
           <li>Odometer</li>
           <li>Availability</li>
-          <li>Status — badge (<span class="badge green">Active</span>)</li>
-          <li>Added — date added</li>
+          <li>Status (<span class="badge green">Active</span>)</li>
+          <li>Added date</li>
           <li>
             Actions —
             <svg class="icon icon-sm icon-inline" viewBox="0 0 24 24" style="stroke:#ef4444"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-2 14a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/></svg>
@@ -494,15 +563,13 @@
           </li>
         </ul>
 
-        <h3>"+ Add Vehicle" button (top right)</h3>
-        <p>
-          Opens a modal popup — <strong>Add New Vehicle</strong> — with the following fields:
-        </p>
+        <h3>"+ Add Vehicle" button</h3>
+        <p>Opens the <strong>Add New Vehicle modal</strong> with fields:</p>
         <ul>
-          <li>Vehicle Number (internal ID)</li>
+          <li>Vehicle Number</li>
           <li>Plate Number</li>
           <li>Vehicle Type (dropdown)</li>
-          <li>Make (manufacturer)</li>
+          <li>Make</li>
           <li>Model</li>
           <li>Year</li>
           <li>Capacity (kg)</li>
@@ -511,19 +578,272 @@
           <li>Current Odometer</li>
           <li>Cancel / Save Vehicle buttons</li>
         </ul>
+      </section>
 
-        <h3>End-to-end summary</h3>
+      <!-- ============================================================ -->
+      <!-- DRIVER SIDE — WORKFLOW                                       -->
+      <!-- ============================================================ -->
+
+      <!-- STEP 1 — RECEIVE NOTIFICATION -->
+      <section id="driver-notification" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#fef3c7; --icon-color:#d97706;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 1 — Receive Notification</h2>
+            <p class="section-meta">Driver Side — same web app, different role</p>
+          </div>
+        </div>
+
         <p>
-          The system is designed to give dispatchers and managers a full end-to-end view —
-          from creating an order, assigning it to a driver and vehicle, tracking it through
-          its lifecycle, recording expenses and inspections, all the way to generating a
-          final delivery PDF report.
+          After the dispatcher creates and assigns an order, the <strong>driver logs into the same web application</strong>
+          and goes through the following steps.
         </p>
+
+        <ul>
+          <li>After login, the driver sees a <strong>notification</strong> that a new delivery has been <strong>scheduled</strong> for them</li>
+          <li>They click the notification to open the job details</li>
+        </ul>
+      </section>
+
+      <!-- STEP 2 — PRE-TRIP INSPECTION -->
+      <section id="pre-trip-inspection" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#dbeafe; --icon-color:#2563eb;">
+            <svg class="icon" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 2 — Pre-Trip Inspection</h2>
+            <p class="section-meta">Driver Side</p>
+          </div>
+        </div>
+
+        <p>The driver fills in:</p>
+        <ul>
+          <li><strong>Plate number</strong> of the assigned vehicle</li>
+          <li><strong>Odometer reading</strong></li>
+          <li><strong>Vehicle photo</strong> (upload image)</li>
+          <li><strong>Full inspection checklist</strong> (pre-configured by admin — covers Exterior checks, lights, mirrors, tyres, etc. with Yes/No results)</li>
+        </ul>
+
+        <p>
+          After submitting → Status on the dispatcher's dashboard updates to:
+          <strong>"Pre-Trip Inspection Completed — Waiting for Dispatcher"</strong>
+        </p>
+        <p>The <strong>dispatcher receives a notification</strong> about this.</p>
+      </section>
+
+      <!-- STEP 3 — VERIFY CARGO & ISSUE TICKET -->
+      <section id="verify-cargo" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#d1fae5; --icon-color:#10b981;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M21.801 10A10 10 0 1 1 17 3.335"/><path d="m9 11 3 3L22 4"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 3 — Dispatcher: Verify Cargo &amp; Issue Trip Ticket</h2>
+            <p class="section-meta">Back on the dispatcher side</p>
+          </div>
+        </div>
+
+        <p>The dispatcher:</p>
+        <ol>
+          <li>Opens the delivery detail view (clicks "View" from the notification)</li>
+          <li>Clicks <strong>"Verify Cargo"</strong> → cargo is confirmed</li>
+          <li>Clicks <strong>"Issue Ticket"</strong> → trip ticket is officially issued to the driver</li>
+          <li>Clicks <strong>"Trip Ticket Issued"</strong> to confirm</li>
+        </ol>
+
+        <p>The driver can now see the ticket is issued and proceeds to depart.</p>
+      </section>
+
+      <!-- STEP 4 — DEPART -->
+      <section id="depart" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#cffafe; --icon-color:#0891b2;">
+            <svg class="icon" viewBox="0 0 24 24"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 4 — Depart to Destination</h2>
+            <p class="section-meta">Driver Side</p>
+          </div>
+        </div>
+
+        <ul>
+          <li>Driver enters <strong>depart details</strong></li>
+          <li>Clicks <strong>"Update Status"</strong> → status changes to <strong>In Transit / Departed</strong></li>
+        </ul>
+      </section>
+
+      <!-- STEP 5 — PHOTOS & EXPENSES -->
+      <section id="photos-expenses" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#ede9fe; --icon-color:#7c3aed;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 5 — Upload Photo &amp; Log Expense (During Trip)</h2>
+            <p class="section-meta">Driver Side</p>
+          </div>
+        </div>
+
+        <p>At any point during the trip, the driver can:</p>
+        <ul>
+          <li><strong>Upload a photo</strong> with details</li>
+          <li><strong>Log an expense</strong> (e.g. Fuel Receipt → amount → description → Submit)</li>
+        </ul>
+
+        <p>
+          These appear in the <strong>Expenses tab</strong> and <strong>Timeline tab</strong> of the
+          Delivery Detail View on the dispatcher side in real time.
+        </p>
+      </section>
+
+      <!-- STEP 6 — ARRIVE & SIGN -->
+      <section id="arrive-sign" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#fee2e2; --icon-color:#dc2626;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M20 10c0 7-8 13-8 13s-8-6-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 6 — Arrive at Site &amp; Get Customer Signature</h2>
+            <p class="section-meta">Driver Side</p>
+          </div>
+        </div>
+
+        <p>When the driver reaches the delivery location:</p>
+        <ul>
+          <li>Clicks <strong>"Arrive at Site"</strong></li>
+          <li>Fills in:
+            <ul>
+              <li>Name of the person receiving the delivery</li>
+              <li>All items checklist (verify each item, note condition)</li>
+            </ul>
+          </li>
+          <li><strong>Customer signs digitally</strong> on the screen</li>
+          <li>Driver clicks <strong>"Confirm Delivery"</strong> → delivery is marked as delivered</li>
+        </ul>
+      </section>
+
+      <!-- STEP 7 — RETURN TO WAREHOUSE -->
+      <section id="return-warehouse" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#f1f5f9; --icon-color:#475569;">
+            <svg class="icon" viewBox="0 0 24 24"><polyline points="9 14 4 9 9 4"/><path d="M20 20v-7a4 4 0 0 0-4-4H4"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 7 — Return to Warehouse</h2>
+            <p class="section-meta">Driver Side</p>
+          </div>
+        </div>
+
+        <ul>
+          <li>Driver clicks <strong>"Return to Warehouse"</strong></li>
+          <li>Status updates accordingly on the dispatcher dashboard</li>
+        </ul>
+      </section>
+
+      <!-- STEP 8 — POST-TRIP INSPECTION -->
+      <section id="post-trip-inspection" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#dbeafe; --icon-color:#2563eb;">
+            <svg class="icon" viewBox="0 0 24 24"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 8 — Post-Trip Inspection</h2>
+            <p class="section-meta">Driver Side</p>
+          </div>
+        </div>
+
+        <p>Same structure as pre-trip:</p>
+        <ul>
+          <li>Driver fills in the full <strong>post-trip inspection checklist</strong></li>
+          <li>Uploads a photo</li>
+          <li>Submits → Dispatcher/Manager is notified that all checklists are completed</li>
+          <li><strong>Keys and documents are returned</strong> — this is also logged</li>
+        </ul>
+      </section>
+
+      <!-- STEP 9 — RETURN KEYS & COMPLETE -->
+      <section id="return-keys-complete" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#d1fae5; --icon-color:#10b981;">
+            <svg class="icon" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Driver Step 9 — Return Keys &amp; Complete</h2>
+            <p class="section-meta">Driver Side</p>
+          </div>
+        </div>
+
+        <ul>
+          <li>Driver clicks <strong>"Return Keys &amp; Complete"</strong></li>
+          <li>The delivery status becomes <strong><span class="badge green">Completed</span> ✅</strong></li>
+        </ul>
+      </section>
+
+      <!-- DISPATCHER STEP — GENERATE PDF & SIGN OFF -->
+      <section id="generate-pdf" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#ede9fe; --icon-color:#7c3aed;">
+            <svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Dispatcher Step — Generate PDF &amp; Sign Off</h2>
+            <p class="section-meta">Final step — back on dispatcher side</p>
+          </div>
+        </div>
+
+        <ul>
+          <li>Dispatcher clicks <strong>"Generate PDF"</strong> — the system generates the official Delivery Report PDF</li>
+          <li>Dispatcher clicks <strong>"Sign Off"</strong> → delivery is officially closed</li>
+          <li>The <strong>PDF can be viewed and downloaded</strong> from the PDF tab in the Delivery Detail View</li>
+        </ul>
+      </section>
+
+      <!-- ============================================================ -->
+      <!-- WORKFLOW SUMMARY                                             -->
+      <!-- ============================================================ -->
+      <section id="workflow-summary" class="view-section">
+        <div class="section-header">
+          <div class="section-icon" style="--icon-bg:#e0e7ff; --icon-color:#6366f1;">
+            <svg class="icon" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="section-header-text">
+            <h2>Complete Workflow Summary (In Order)</h2>
+            <p class="section-meta">End-to-end — dispatcher and driver actions in sequence</p>
+          </div>
+        </div>
+
+        <table class="workflow-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Who</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td><span class="role role-dispatcher">Dispatcher</span></td><td>Logs in → sees All Deliveries dashboard</td></tr>
+            <tr><td>2</td><td><span class="role role-dispatcher">Dispatcher</span></td><td>Creates new order (fills customer, address, details, assigns driver &amp; vehicle)</td></tr>
+            <tr><td>3</td><td><span class="role role-dispatcher">Dispatcher</span></td><td>Adds delivery items → Reviews delivery detail</td></tr>
+            <tr><td>4</td><td><span class="role role-driver">Driver</span></td><td>Logs in → receives notification of scheduled delivery</td></tr>
+            <tr><td>5</td><td><span class="role role-driver">Driver</span></td><td>Fills pre-trip inspection (plate, odometer, photo, checklist) → submits</td></tr>
+            <tr><td>6</td><td><span class="role role-dispatcher">Dispatcher</span></td><td>Gets notified → views pre-trip inspection → Verifies Cargo → Issues Trip Ticket</td></tr>
+            <tr><td>7</td><td><span class="role role-driver">Driver</span></td><td>Enters depart details → Updates status (In Transit)</td></tr>
+            <tr><td>8</td><td><span class="role role-driver">Driver</span></td><td>Uploads photos &amp; logs expenses during trip</td></tr>
+            <tr><td>9</td><td><span class="role role-driver">Driver</span></td><td>Arrives at site → Gets customer signature + item verification → Confirms Delivery</td></tr>
+            <tr><td>10</td><td><span class="role role-driver">Driver</span></td><td>Clicks Return to Warehouse</td></tr>
+            <tr><td>11</td><td><span class="role role-driver">Driver</span></td><td>Fills post-trip inspection checklist + photo → Submits</td></tr>
+            <tr><td>12</td><td><span class="role role-driver">Driver</span></td><td>Returns keys → Clicks "Return Keys &amp; Complete" → Status = <span class="badge green">Completed</span> ✅</td></tr>
+            <tr><td>13</td><td><span class="role role-dispatcher">Dispatcher</span></td><td>Generates PDF → Signs Off → Views &amp; downloads PDF Report</td></tr>
+          </tbody>
+        </table>
       </section>
 
     </main>
   </div>
 
-  <script src="assets/script.js?v=2026-05-08b"></script>
+  <script src="assets/script.js?v=2026-05-08c"></script>
 </body>
 </html>
