@@ -161,6 +161,34 @@ code {
   gap: 6px;
   font-weight: 700;
 }
+.nav-module-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--text-strong);
+  font-weight: 800;
+  margin: 28px 0 10px;
+  padding: 10px 12px;
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav-module-label .icon { stroke: var(--accent); }
+.nav-module-label.module-pc {
+  background: #ccfbf1;
+  border-left-color: #0d9488;
+  color: #0f3a37;
+}
+.nav-module-label.module-pc .icon { stroke: #0d9488; }
+.nav-module-label.module-soon {
+  background: var(--border-soft);
+  border-left-color: var(--text-faint);
+  color: var(--text-muted);
+}
+.nav-module-label.module-soon .icon { stroke: var(--text-faint); }
 .nav-link.coming-soon {
   color: var(--text-faint);
   cursor: default;
