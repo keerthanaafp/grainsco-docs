@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GRAINSCO — Documentation</title>
-  <link rel="stylesheet" href="assets/style.css?v=2026-05-08f">
+  <link rel="stylesheet" href="assets/style.css?v=2026-05-08g">
 </head>
 <body>
   <div class="layout">
@@ -269,7 +269,7 @@
 
         <ul>
           <li>URL: <a href="https://app.fieldproxy.ai/" target="_blank" rel="noopener"><code>https://app.fieldproxy.ai/</code></a></li>
-          <li>Enter your <strong>User ID</strong> (e.g. <code>test1</code>) and <strong>Password</strong> (e.g. <code>12345678</code>)</li>
+          <li>Enter your <strong>User ID</strong> and <strong>Password</strong> <em>(sample credentials provided by your admin)</em></li>
           <li>The role (dispatcher vs. driver) determines what you see after login</li>
         </ul>
       </section>
@@ -303,16 +303,16 @@
 
         <h3>5 KPI summary cards</h3>
         <ul>
-          <li><strong>All Orders</strong> — total number of delivery orders (e.g. 27)</li>
-          <li><strong>Pending</strong> — orders created but not yet dispatched (e.g. 8)</li>
-          <li><strong>In Transit</strong> — orders currently being delivered (e.g. 0)</li>
-          <li><strong>Completed</strong> — successfully finished deliveries (e.g. 16)</li>
-          <li><strong>Failed</strong> — failed delivery attempts (e.g. 0)</li>
+          <li><strong>All Orders</strong> — total number of delivery orders</li>
+          <li><strong>Pending</strong> — orders created but not yet dispatched</li>
+          <li><strong>In Transit</strong> — orders currently being delivered</li>
+          <li><strong>Completed</strong> — successfully finished deliveries</li>
+          <li><strong>Failed</strong> — failed delivery attempts</li>
         </ul>
 
         <h3>Delivery Orders table</h3>
         <ul>
-          <li>Order # (e.g. <code>DLV-2026-0027</code>)</li>
+          <li>Order # — format: <code>DLV-YYYY-XXXX</code></li>
           <li>Customer name</li>
           <li>Delivery Address</li>
           <li>Assigned Driver (with dropdown to change)</li>
@@ -402,9 +402,9 @@
         <h3>Section 3 — Delivery Details &amp; Assignment</h3>
         <ul>
           <li>Scheduled Delivery Date <em>(date picker)</em></li>
-          <li>Delivery Time Window <em>(e.g., 4 AM to 9 PM)</em></li>
+          <li>Delivery Time Window <em>(text field)</em></li>
           <li>Priority <em>(dropdown: Urgent / High / Normal)</em></li>
-          <li>Assign Driver <em>(dropdown of available drivers, e.g. "test user")</em></li>
+          <li>Assign Driver <em>(dropdown of available drivers)</em></li>
           <li>Assign Vehicle <em>(dropdown of available vehicles)</em></li>
           <li>Special Instructions <em>(free text area)</em></li>
         </ul>
@@ -422,9 +422,9 @@
         <ul>
           <li>Item name / size</li>
           <li>Description</li>
-          <li>Quantity (e.g. 344)</li>
+          <li>Quantity</li>
           <li>Weight</li>
-          <li>Unit (e.g. Bags)</li>
+          <li>Unit</li>
         </ul>
         <p>
           Click <strong>"Add"</strong> to add the item, then <strong>"Done"</strong> to finish — this takes you back
@@ -456,8 +456,8 @@
 
         <h3>Top section</h3>
         <ul>
-          <li>Breadcrumb: <em>← Back to Deliveries / DLV-2026-XXXX</em></li>
-          <li>Order number as title</li>
+          <li>Breadcrumb: <em>← Back to Deliveries / [Order #]</em></li>
+          <li>Order number as title (format: <code>DLV-YYYY-XXXX</code>)</li>
           <li>Customer name and company as subtitle</li>
           <li><strong>Status badge</strong> (e.g. <span class="badge green">Completed</span>, <span class="badge yellow">Pending</span>, <span class="badge blue">In Transit</span>)</li>
           <li><strong>"Generate PDF"</strong> button (purple) — top right</li>
@@ -564,10 +564,10 @@
 
         <h3>Top section — 4 KPI cards</h3>
         <ul>
-          <li><strong>Total Drivers</strong> (e.g. 1)</li>
-          <li><strong>Active</strong> (e.g. 1)</li>
-          <li><strong>Inactive</strong> (e.g. 0)</li>
-          <li><strong>Available Now</strong> (e.g. 1)</li>
+          <li><strong>Total Drivers</strong> — total registered drivers</li>
+          <li><strong>Active</strong> — currently active drivers</li>
+          <li><strong>Inactive</strong> — deactivated drivers</li>
+          <li><strong>Available Now</strong> — drivers available for assignment right now</li>
         </ul>
 
         <h3>All Drivers table — columns</h3>
@@ -623,19 +623,19 @@
 
         <h3>Top section — 4 KPI cards</h3>
         <ul>
-          <li><strong>Total Vehicles</strong> (e.g. 43)</li>
-          <li><strong>Active</strong> (e.g. 43)</li>
-          <li><strong>Inactive</strong> (e.g. 0)</li>
-          <li><strong>Available Now</strong> (e.g. 43)</li>
+          <li><strong>Total Vehicles</strong> — total fleet count</li>
+          <li><strong>Active</strong> — currently active vehicles</li>
+          <li><strong>Inactive</strong> — decommissioned vehicles</li>
+          <li><strong>Available Now</strong> — vehicles ready for assignment</li>
         </ul>
 
         <h3>All Vehicles table — columns</h3>
         <ul>
-          <li>Vehicle # (internal code, e.g. <code>CDO-011</code>, <code>MC-001</code>)</li>
+          <li>Vehicle # — internal code</li>
           <li>Plate No.</li>
           <li>Type (Pickup, Motorcycle, etc.)</li>
-          <li>Make (Toyota, Honda, Kawasaki, Isuzu, Rusi)</li>
-          <li>Model (Hilux, Wave 110, D-Max, etc.)</li>
+          <li>Make — manufacturer name</li>
+          <li>Model</li>
           <li>Year</li>
           <li>Capacity (kg)</li>
           <li>Fuel</li>
@@ -1025,7 +1025,7 @@
         <h3>Step 2 — Equipment / Mission Details</h3>
         <ul>
           <li><strong>Mission Category</strong> — select the type (e.g., Pre-Commissioning)</li>
-          <li><strong>Equipment field</strong> — type the equipment name (e.g., "test 545") and click <strong>Add</strong></li>
+          <li><strong>Equipment field</strong> — type the equipment name and click <strong>Add</strong></li>
           <li>Multiple equipment items can be added</li>
           <li><strong>Quantity details</strong> for each equipment item</li>
           <li>Once all equipment is added, click <strong>Next</strong></li>
@@ -1033,8 +1033,8 @@
 
         <h3>Step 3 — Task / Visit Details</h3>
         <ul>
-          <li><strong>Task Title</strong> — enter the job title (e.g., "Pre-commissioning test")</li>
-          <li><strong>Date and Time of Visit</strong> — schedule the visit (e.g., 15th)</li>
+          <li><strong>Task Title</strong> — enter the job title</li>
+          <li><strong>Date and Time of Visit</strong> — schedule the visit</li>
           <li><strong>Priority</strong> — set the priority level</li>
           <li><strong>Description</strong> — any additional notes</li>
           <li><strong>Assign Technician</strong> — select the primary technician</li>
@@ -1134,18 +1134,15 @@
           <li><strong>"View All Approvals"</strong> button → goes to the full Job Order Approvals view</li>
         </ul>
 
-        <h3>6 KPI summary cards (pending counts)</h3>
-        <table class="workflow-table">
-          <thead><tr><th>Type</th><th>Count</th></tr></thead>
-          <tbody>
-            <tr><td>Fund Requests</td><td>5</td></tr>
-            <tr><td>Tool Requests</td><td>1</td></tr>
-            <tr><td>Vehicle Requests</td><td>0</td></tr>
-            <tr><td>Troubleshoot Visits</td><td>7</td></tr>
-            <tr><td>Job Requests</td><td>4</td></tr>
-            <tr><td>Expense Approvals</td><td>24</td></tr>
-          </tbody>
-        </table>
+        <h3>6 KPI summary cards (pending counts per category)</h3>
+        <ul>
+          <li><strong>Fund Requests</strong></li>
+          <li><strong>Tool Requests</strong></li>
+          <li><strong>Vehicle Requests</strong></li>
+          <li><strong>Troubleshoot Visits</strong></li>
+          <li><strong>Job Requests</strong></li>
+          <li><strong>Expense Approvals</strong></li>
+        </ul>
 
         <h3>Left-side sub-tab menu + request list — 6 tabs</h3>
 
@@ -1166,7 +1163,7 @@
         <ul>
           <li>Title: "Fund Request — [Name]"</li>
           <li>Task ID, purpose, destination</li>
-          <li>Line items (e.g., "Meals – lunch for one day – 1 – 200.0")</li>
+          <li>Line items (description, quantity, amount per row)</li>
           <li>Total Items count</li>
           <li>Total amount</li>
           <li><strong>Close</strong> button</li>
@@ -1175,31 +1172,28 @@
         <h4>Sub-Tab 2 — Tool Requests</h4>
         <ul>
           <li>Pending tool/equipment requests</li>
-          <li>Shows tool names (e.g., "Infrared Gun Thermometer, Moisture Meter (Paddy/Rice)")</li>
+          <li>Shows the tool names being requested</li>
           <li>Actions: View (opens Request Detail View page) | <span class="badge red">✗ Reject</span> <span class="badge green">✓ Approve</span></li>
         </ul>
 
         <h4>Sub-Tab 3 — Vehicle Requests</h4>
         <ul>
           <li>Pending vehicle booking requests</li>
-          <li>Currently 0 items</li>
-          <li>When populated: shows vehicle type, date required, driver required, designation</li>
+          <li>Each shows: vehicle type, date required, driver required, designation</li>
           <li>Actions: View | <span class="badge red">✗ Reject</span> <span class="badge green">✓ Approve</span></li>
         </ul>
 
         <h4>Sub-Tab 4 — Troubleshoot</h4>
         <ul>
-          <li>Pending troubleshoot visit requests (7 items)</li>
-          <li>Shows client name, task ID, parts required (e.g., "Parts: Ecostar 6000 x1")</li>
-          <li>Clients include: F.V. DYSICO RICEMILL, EDISONS PACKAGING SOLUTIONS, BFPMPC, AUAGA FARMERS RICE MILL, etc.</li>
+          <li>Pending troubleshoot visit requests</li>
+          <li>Each shows: client name, task ID, parts required</li>
           <li>Actions: View (opens Request Detail View) | <span class="badge red">✗ Reject</span> <span class="badge green">✓ Approve</span></li>
         </ul>
 
         <h4>Sub-Tab 5 — Job Requests</h4>
         <ul>
-          <li>Pending job order requests (4 items)</li>
-          <li>Shows client, job type, technician, scheduled date</li>
-          <li>e.g., "precommissioning | Tech: AIRA VALDEZ | Scheduled: 30 Mar 2026"</li>
+          <li>Pending job order requests</li>
+          <li>Each shows: client, job type, assigned technician, scheduled date</li>
           <li>Actions: View | <span class="badge red">✗ Reject</span> <span class="badge green">✓ Approve</span></li>
           <li><strong>When the manager clicks ✓ Approve → the job moves to "Assigned" status and becomes visible to the technician on the mobile app</strong></li>
         </ul>
@@ -1207,7 +1201,6 @@
         <h4>Sub-Tab 6 — Expenses</h4>
         <ul>
           <li>Pending expense approvals from technicians</li>
-          <li>Currently empty in display</li>
           <li>Actions: <span class="badge red">✗ Reject</span> <span class="badge green">✓ Approve</span></li>
         </ul>
       </section>
@@ -1227,35 +1220,32 @@
 
         <h3>Header</h3>
         <ul>
-          <li>Ticket ID (e.g., <code>SRF-2026-0111</code>)</li>
+          <li>Ticket ID — format: <code>SRF-YYYY-XXXX</code></li>
           <li>Request title/subtitle</li>
-          <li>Breadcrumb: <em>Service Requests &gt; SRF-2026-XXXX</em></li>
+          <li>Breadcrumb: <em>Service Requests &gt; [Ticket ID]</em></li>
           <li><span class="badge red">✗ Reject</span> button</li>
           <li><span class="badge green">✓ Approve</span> button</li>
         </ul>
 
         <h3>Client Details Panel</h3>
-        <table class="workflow-table">
-          <thead><tr><th>Field</th><th>Example</th></tr></thead>
-          <tbody>
-            <tr><td>Client Name</td><td>F.V. DYSICO RICEMILL</td></tr>
-            <tr><td>Contact Person</td><td>Ferdinand Dysico</td></tr>
-            <tr><td>Phone Number</td><td>+63 9261886997</td></tr>
-            <tr><td>Email</td><td>(if available)</td></tr>
-            <tr><td>Address</td><td>Tulat Street, San Jose City, Nueva Ecija</td></tr>
-          </tbody>
-        </table>
+        <ul>
+          <li>Client Name</li>
+          <li>Contact Person</li>
+          <li>Phone Number</li>
+          <li>Email (if available)</li>
+          <li>Address</li>
+        </ul>
 
         <h3>Right-side metadata</h3>
         <ul>
-          <li><strong>Type of Job</strong> (troubleshoot / precommissioning / Troubleshooting)</li>
-          <li><strong>Date Raised</strong> (e.g., May 07, 2026)</li>
+          <li><strong>Type of Job</strong> (troubleshoot / precommissioning / commissioning)</li>
+          <li><strong>Date Raised</strong></li>
           <li><strong>Status</strong> (assigned / submitted / rescheduled)</li>
         </ul>
 
         <h3>Machine/Equipment Info (if attached)</h3>
         <ul>
-          <li>Machine name and model (e.g., RAINSTAR T32)</li>
+          <li>Machine name and model</li>
           <li>Serial number</li>
           <li>Current Job type</li>
         </ul>
@@ -1306,9 +1296,9 @@
 
         <h3>3 KPI cards</h3>
         <ul>
-          <li><span class="badge yellow">⏳ Pending Approval</span> 6</li>
-          <li><span class="badge green">✓ Approved</span> 38</li>
-          <li><span class="badge red">✗ Rejected</span> 0</li>
+          <li><span class="badge yellow">⏳ Pending Approval</span></li>
+          <li><span class="badge green">✓ Approved</span></li>
+          <li><span class="badge red">✗ Rejected</span></li>
         </ul>
 
         <h3>3 Tabs</h3>
@@ -1325,11 +1315,7 @@
           <li><strong>✗ Reject</strong> — reject directly from the table</li>
         </ul>
         <p>Each column has a "Contains" search filter row.</p>
-        <p>
-          Current 6 pending items include Job Orders and Tool Requests from clients like
-          ALIAGA FARMERS RICE MILL, Grainsco Industries, FIRST ATKINS FARM, Joshua Co,
-          DEPARTMENT OF AGRICULTURE.
-        </p>
+        <p>Pending items include Job Orders and Tool Requests across multiple clients.</p>
 
         <h4>Tab 2 — Approved</h4>
         <p>
@@ -1337,12 +1323,12 @@
           Approved Date | Actions (View only)
         </p>
         <p>
-          Shows 38 approved orders. Job Order numbers are auto-generated (e.g., <code>JOB_35</code>,
-          <code>JOB_34</code>, <code>JOB_33</code>).
+          Shows all approved orders. Job Order numbers are auto-generated
+          (format: <code>JOB_NNN</code>).
         </p>
 
         <h4>Tab 3 — Rejected</h4>
-        <p>Same structure as Approved. Currently 0 items.</p>
+        <p>Same structure as Approved.</p>
       </section>
 
       <!-- ============================================================ -->
@@ -1362,8 +1348,8 @@
 
         <ul>
           <li>Organisation ID: <strong>Grainsco</strong></li>
-          <li>User ID: <strong>test</strong></li>
-          <li>Password: <strong>1–8 (12345678)</strong></li>
+          <li>User ID: <em>(sample User ID provided by your admin)</em></li>
+          <li>Password: <em>(sample password provided by your admin)</em></li>
           <li>Accept all required permissions</li>
         </ul>
       </section>
@@ -1382,7 +1368,7 @@
         <ul>
           <li>Shows all jobs assigned to the technician</li>
           <li>Jobs are displayed in a <strong>calendar/date view</strong></li>
-          <li>Click on a date (e.g., 15th) to see jobs scheduled for that day</li>
+          <li>Click on a date to see jobs scheduled for that day</li>
           <li>Each job card shows: client name, job type, status (Assigned/Completed)</li>
         </ul>
       </section>
@@ -1582,7 +1568,7 @@
             <tr><td>6</td><td><span class="role role-manager">Manager</span></td><td>Manager Portal</td><td>Receives notification of 1 new Job Request on Dashboard</td></tr>
             <tr><td>7</td><td><span class="role role-manager">Manager</span></td><td>Manager Portal</td><td>Scrolls to Job Requests → clicks ✓ approve tick mark</td></tr>
             <tr><td>8</td><td><span class="role role-system">System</span></td><td>Auto</td><td>Status changes to "Assigned" → Technician notified on mobile app</td></tr>
-            <tr><td>9</td><td><span class="role role-technician">Technician</span></td><td>Mobile App</td><td>Logs in → sees job on calendar (e.g., 15th) → opens the assigned job</td></tr>
+            <tr><td>9</td><td><span class="role role-technician">Technician</span></td><td>Mobile App</td><td>Logs in → sees job on calendar → opens the assigned job</td></tr>
             <tr><td>10</td><td><span class="role role-technician">Technician</span></td><td>Mobile App</td><td>Views fund/tool/vehicle requests (optional)</td></tr>
             <tr><td>11</td><td><span class="role role-technician">Technician</span></td><td>Mobile App</td><td>Clicks "Inform Customer" → calls or emails client → marks as informed</td></tr>
             <tr><td>12</td><td><span class="role role-technician">Technician</span></td><td>Mobile App</td><td>Clicks "Time In On-Site" → logs arrival</td></tr>
@@ -1600,6 +1586,6 @@
     </main>
   </div>
 
-  <script src="assets/script.js?v=2026-05-08f"></script>
+  <script src="assets/script.js?v=2026-05-08g"></script>
 </body>
 </html>
